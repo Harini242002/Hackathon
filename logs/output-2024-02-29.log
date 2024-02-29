@@ -1,0 +1,52 @@
+14:30:57.566 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:31:17.703 [main] INFO  testcase.TC_01_Travel - --------------Medical Condition -------------
+14:31:18.927 [main] INFO  testcase.TC_01_Travel - --------------Filling Mobile Number -------------
+14:33:05.796 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:33:08.761 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:33:10.073 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:33:11.290 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:34:42.965 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:34:45.832 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:34:48.593 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:34:49.806 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:35:52.744 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:35:55.768 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:35:57.122 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:35:58.345 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:37:30.019 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:37:32.587 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:37:35.371 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:37:36.624 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:37:56.788 [main] INFO  testcase.TC_01_Travel - --------------Medical Condition -------------
+14:37:57.937 [main] INFO  testcase.TC_01_Travel - --------------Filling Mobile Number -------------
+14:38:18.064 [main] INFO  testcase.TC_01_Travel - --------------Selecting student plan -------------
+14:39:52.717 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:39:55.598 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:39:58.466 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:39:58.980 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:40:01.776 [main] INFO  testcase.TC_01_Travel - --------------Medical Condition -------------
+14:40:02.359 [main] INFO  testcase.TC_01_Travel - --------------Filling Mobile Number -------------
+14:40:03.221 [main] INFO  testcase.TC_01_Travel - --------------Selecting student plan -------------
+14:40:09.595 [main] INFO  testcase.TC_01_Travel - --------------Sorting Low to High -------------
+14:40:10.718 [main] INFO  testcase.TC_01_Travel - --------------Navigating to Main Window -------------
+14:40:11.219 [main] INFO  testcase.TC_01_Travel - --------------Car Insurance Opening-------------
+14:40:31.424 [main] INFO  testcase.TC_01_Travel - --------------Selecting Loctaion -------------
+14:43:05.038 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:44:08.069 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:45:47.895 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:45:56.757 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:45:59.451 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:46:00.673 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:46:20.825 [main] INFO  testcase.TC_01_Travel - --------------Medical Condition -------------
+14:46:22.026 [main] INFO  testcase.TC_01_Travel - --------------Filling Mobile Number -------------
+14:47:19.635 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:47:22.455 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:47:23.815 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:47:25.106 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:54:18.310 [main] INFO  testcase.TC_01_Travel - ---------------Location Choosed---------
+14:54:22.196 [main] INFO  testcase.TC_01_Travel - ---------------Date Selecting---------
+14:54:25.274 [main] INFO  testcase.TC_01_Travel - ---------------Choosing No of Travellers---------
+14:54:25.801 [main] INFO  testcase.TC_01_Travel - --------------Filling travellers Age -------------
+14:54:28.456 [main] INFO  testcase.TC_01_Travel - --------------Medical Condition -------------
+14:54:29.136 [main] INFO  testcase.TC_01_Travel - --------------Filling Mobile Number -------------
+14:54:30.119 [main] INFO  testcase.TC_01_Travel - --------------Selecting student plan -------------

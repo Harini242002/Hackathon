@@ -1,0 +1,13 @@
+14:54:38.588 [main] INFO  testcase.TC_01_Travel - --------------Sorting Low to High -------------
+14:54:41.555 [main] INFO  testcase.TC_01_Travel - --------------Navigating to Main Window -------------
+14:54:42.945 [main] INFO  testcase.TC_01_Travel - --------------Car Insurance Opening-------------
+14:54:46.480 [main] INFO  testcase.TC_01_Travel - --------------Selecting Loctaion -------------
+14:54:46.934 [main] INFO  testcase.TC_01_Travel - --------------Selecting CarNo -------------
+14:54:47.140 [main] INFO  testcase.TC_01_Travel - --------------Selecting Brand -------------
+14:54:47.714 [main] INFO  testcase.TC_01_Travel - --------------Selecting Model -------------
+14:54:48.257 [main] INFO  testcase.TC_01_Travel - --------------Selecting Fuel -------------
+14:54:48.727 [main] INFO  testcase.TC_01_Travel - --------------Selecting Variants-------------
+14:54:49.034 [main] INFO  testcase.TC_01_Travel - --------------Filling UserDetails-------------
+14:54:49.247 [main] INFO  testcase.TC_01_Travel - --------------Capturing Error Message-------------
+14:54:49.454 [main] INFO  testcase.TC_01_Travel - --------------Navigating to Main Window -------------
+14:54:50.825 [main] INFO  testcase.TC_01_Travel - --------------Printing Menu -------------

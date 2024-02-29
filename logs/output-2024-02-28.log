@@ -1,0 +1,54 @@
+18:01:55.686 [main] INFO  testcase.testcase - --------------Medical Condition -------------
+18:01:56.653 [main] INFO  testcase.testcase - --------------Filling Mobile Number -------------
+18:02:00.030 [main] INFO  testcase.testcase - --------------Selecting student plan -------------
+18:02:12.084 [main] INFO  testcase.testcase - --------------Sorting Low to High -------------
+18:02:16.529 [main] INFO  testcase.testcase - --------------Navigating to Main Window -------------
+18:02:18.351 [main] INFO  testcase.testcase - --------------Car Insurance Opening-------------
+18:02:23.549 [main] INFO  testcase.testcase - --------------Selecting Loctaion -------------
+18:02:23.986 [main] INFO  testcase.testcase - --------------Selecting CarNo -------------
+18:02:24.374 [main] INFO  testcase.testcase - --------------Selecting Brand -------------
+18:02:25.004 [main] INFO  testcase.testcase - --------------Selecting Model -------------
+18:02:25.508 [main] INFO  testcase.testcase - --------------Selecting Fuel -------------
+18:02:26.104 [main] INFO  testcase.testcase - --------------Selecting Variants-------------
+18:02:26.603 [main] INFO  testcase.testcase - --------------Filling UserDetails-------------
+18:02:27.257 [main] INFO  testcase.testcase - --------------Capturing Error Message-------------
+18:02:27.592 [main] INFO  testcase.testcase - --------------Navigating to Main Window -------------
+18:02:30.483 [main] INFO  testcase.testcase - --------------Printing Menu -------------
+18:03:59.923 [main] INFO  testcase.testcase - ---------------Location Choosed---------
+18:04:03.967 [main] INFO  testcase.testcase - ---------------Date Selecting---------
+18:04:12.169 [main] INFO  testcase.testcase - ---------------Choosing No of Travellers---------
+18:04:13.216 [main] INFO  testcase.testcase - --------------Filling travellers Age -------------
+18:04:21.306 [main] INFO  testcase.testcase - --------------Medical Condition -------------
+18:04:22.547 [main] INFO  testcase.testcase - --------------Filling Mobile Number -------------
+18:04:24.961 [main] INFO  testcase.testcase - --------------Selecting student plan -------------
+18:04:35.629 [main] INFO  testcase.testcase - --------------Sorting Low to High -------------
+18:04:40.004 [main] INFO  testcase.testcase - --------------Navigating to Main Window -------------
+18:04:43.403 [main] INFO  testcase.testcase - --------------Car Insurance Opening-------------
+18:04:55.493 [main] INFO  testcase.testcase - --------------Selecting Loctaion -------------
+18:04:55.828 [main] INFO  testcase.testcase - --------------Selecting CarNo -------------
+18:04:56.283 [main] INFO  testcase.testcase - --------------Selecting Brand -------------
+18:04:57.114 [main] INFO  testcase.testcase - --------------Selecting Model -------------
+18:04:57.815 [main] INFO  testcase.testcase - --------------Selecting Fuel -------------
+18:04:58.858 [main] INFO  testcase.testcase - --------------Selecting Variants-------------
+18:04:59.415 [main] INFO  testcase.testcase - --------------Filling UserDetails-------------
+18:05:00.099 [main] INFO  testcase.testcase - --------------Capturing Error Message-------------
+18:05:00.507 [main] INFO  testcase.testcase - --------------Navigating to Main Window -------------
+18:05:05.713 [main] INFO  testcase.testcase - --------------Printing Menu -------------
+18:05:26.930 [main] INFO  testcase.testcase - ---------------Location Choosed---------
+18:05:31.066 [main] INFO  testcase.testcase - ---------------Date Selecting---------
+18:05:36.496 [main] INFO  testcase.testcase - ---------------Choosing No of Travellers---------
+18:05:37.486 [main] INFO  testcase.testcase - --------------Filling travellers Age -------------
+18:05:42.147 [main] INFO  testcase.testcase - --------------Medical Condition -------------
+18:05:43.107 [main] INFO  testcase.testcase - --------------Filling Mobile Number -------------
+18:05:45.130 [main] INFO  testcase.testcase - --------------Selecting student plan -------------
+18:05:56.363 [main] INFO  testcase.testcase - --------------Sorting Low to High -------------
+18:06:00.463 [main] INFO  testcase.testcase - --------------Navigating to Main Window -------------
+18:06:02.310 [main] INFO  testcase.testcase - --------------Car Insurance Opening-------------
+18:06:06.900 [main] INFO  testcase.testcase - --------------Selecting Loctaion -------------
+18:06:07.228 [main] INFO  testcase.testcase - --------------Selecting CarNo -------------
+18:06:07.637 [main] INFO  testcase.testcase - --------------Selecting Brand -------------
+18:06:08.234 [main] INFO  testcase.testcase - --------------Selecting Model -------------
+18:06:08.758 [main] INFO  testcase.testcase - --------------Selecting Fuel -------------
+18:06:09.216 [main] INFO  testcase.testcase - --------------Selecting Variants-------------
+18:06:09.595 [main] INFO  testcase.testcase - --------------Filling UserDetails-------------
+18:06:10.270 [main] INFO  testcase.testcase - --------------Capturing Error Message-------------
