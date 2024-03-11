@@ -15,6 +15,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 import Utilities.Excel;
+import testbase.Baseclass;
 
 
 public class travel extends BasePage{
@@ -29,19 +30,22 @@ public class travel extends BasePage{
 		Actions act=new Actions (driver);
 		String timestamp=new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 		String Fromdate=timestamp.substring(6,8);
-		int Todate=Integer.parseInt(Fromdate)+2;
-		String Enddate="3";
-				//Integer.toString(Todate);
+		int Fromdate1=Integer.parseInt(Fromdate);
 		
+		
+		//locators
 		@FindBy(xpath="(//*[@class='shadowHandlerBox'])[7]")
 		WebElement travelinsurance;
-		@FindBy(xpath="//*[@class='countryButton']/p[text()='Germany']")
-		WebElement Germany;
+		@FindBy(id="country")
+		WebElement countryInput;
+		@FindBy(xpath="//li[text()='Germany']")
+		WebElement country;
+		
 		@FindBy(xpath="//*[@class='travel_main_cta']")
 		WebElement Next;
-		@FindBy(xpath="(//*[contains(@class,'MuiInputBase-root')])[1]")
+		@FindBy(xpath="(//input[contains(@class,'MuiInputBase-input MuiOutlinedInput-input')])[1]")
 		WebElement Date1;
-		@FindBy(xpath="(//*[contains(@class,'MuiInputBase-root')])[2]")
+		@FindBy(xpath="(//input[contains(@class,'MuiInputBase-input MuiOutlinedInput-input')])[2]")
 		WebElement Date2;
 		 
 		@FindBy(xpath="//*[contains(@class,'MuiPickersDateRangeDay-rangeIntervalPreview')]")
@@ -59,6 +63,10 @@ public class travel extends BasePage{
 		WebElement medicalcondition;
 		@FindBy(id="mobileNumber")
 		WebElement mobilenumber;
+		@FindBy(xpath="//div[@class='exitIntentPopup__box ']")
+		WebElement popup;
+	 	@FindBy(xpath="//span[@class='exitIntentPopup__box__closePop']")
+		WebElement closePopUp;
 		@FindBy(id="studentTrip")
 		WebElement pickstudentplan;
 		@FindBy(id="Traveller_1")
@@ -67,6 +75,8 @@ public class travel extends BasePage{
 		WebElement clicktraveller2;
 		@FindBy(id="feet")
 		WebElement pickdays;
+		@FindBy(xpath="//*[@class='genericPopup__close']") 
+		WebElement mobilenumberpopup;
 		@FindBy(xpath="//summary/p[text()='Sort by']")
 		WebElement sortby;
 		@FindBy(xpath="//label[text()='Premium low to high']")
@@ -78,98 +88,89 @@ public class travel extends BasePage{
 		@FindBy(xpath="//*[@class='row_wrap']/h1/a")
 		WebElement mainpage;
 		
-		public void travellocation() {
+		public void travellocation() throws InterruptedException {
 			travelinsurance.click();
-			js.executeScript("arguments[0].click();", Germany);
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-				
+			countryInput.click();
+			countryInput.sendKeys("Germany");
+			js.executeScript("arguments[0].click();", country);
+			Baseclass.explicitWait(driver,Duration.ofSeconds(50),Next);
+			
 		}
-		public void DateClicking() {
+		public void DateClicking() throws InterruptedException {
 			Next.click();
-			Date1.click();
+			Thread.sleep(2000);
+			js.executeScript("arguments[0].click();", Date1);
+			if(Fromdate1<10) {
+				 Fromdate=timestamp.substring(7,8);
+			}
+			else {
+				Fromdate=timestamp.substring(6,8);
+			}
 			for(int i=0;i<Datepicking.size();i++) {
 				if(Datepicking.get(i).getText().equals(Fromdate)) {
 					Datepicking.get(i).click();
 					break;
-					
-				}
-				
+				}				
 			}
-//			Date1.click();
-//			Date2.click();
+			js.executeScript("arguments[0].click();", Date1);
+			Thread.sleep(1000);
+			js.executeScript("arguments[0].click();", Date2);
 			for(int i=0;i<Datepicking.size();i++) {
 				if(Datepicking.get(i).getText().equals(Fromdate)) {
-					Datepicking.get(i+25).click();
-					break;
-					
-				}
-				
-			}
-			
-			
-			
+					Datepicking.get(i+10).click();
+					break;					
+				}				
+			}			
 		}
 		public void nooftravellers() {
 			Next.click();
 			numberoftravellers.click();
 		}
 		public void travellerdetails() throws IOException {
-			
 			js.executeScript("arguments[0].click();", traveller1);
 			for(int i=0;i<Ageoftraveller1.size();i++) {
 				if(Ageoftraveller1.get(i).getText().equals(Excel.getCellData("Sheet1", 1, 0))) {
 					Ageoftraveller1.get(i).click();
-					break;
-					
-				}
-				
+					break;					
+				}				
 			}
 			js.executeScript("arguments[0].click();", traveller2);
 			for(int i=0;i<Ageoftraveller1.size();i++) {
 				if(Ageoftraveller1.get(i).getText().equals(Excel.getCellData("Sheet1", 2, 0))) {
 					Ageoftraveller1.get(i).click();
-					break;
-					
-				}
-				
-			}
-			
-						
+					break;					
+				}				
+			}						
 		}
 		public void travellersmedicalcondition() {
 			Next.click();
-			medicalcondition.click();
-			
+			medicalcondition.click();			
 		}
 		public void mobilenumber() throws IOException {
 			mobilenumber.click();
 			mobilenumber.sendKeys(Excel.getCellData("Sheet1", 0, 0));
 			Next.click();
 		}
-		public void studentplan()  {
-			pickstudentplan.click();
-			try {
-				Thread.sleep(4000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		public void studentplan() throws InterruptedException  {
+			js.executeScript("arguments[0].click();",pickstudentplan);
+				Thread.sleep(1000);							
+				try {		
+				popup.click();
+				closePopUp.click();
+				}
+				catch(Exception e) {
+					e.getStackTrace();
+				}
+			
 			js.executeScript("arguments[0].click();",clicktraveller1);
 			js.executeScript("arguments[0].click();",clicktraveller2);
 			Select s=new Select(pickdays);
 		    s.selectByVisibleText("30 Days");
-		    Next.click();
-		    try {
-				Thread.sleep(2000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		    Next.click();		    
 		}
 		public void sortBy() throws IOException, InterruptedException {
 			js.executeScript("arguments[0].click();", sortby);
 			Thread.sleep(2000);
-
 			js.executeScript("arguments[0].click();", Clicklowtohigh);
 			int row=1;
 			for(int i=0;i<3;i++) {
